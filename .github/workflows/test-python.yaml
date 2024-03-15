@@ -21,6 +21,8 @@ jobs:
     name: Setup and run python
     runs-on: ubuntu-latest
     steps:
+      - run: |
+          echo "starting checkout ..."
       - name: Checkout
         uses: actions/checkout@v4
       - name: setup python
