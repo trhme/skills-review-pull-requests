@@ -4,6 +4,7 @@ name: Test setup-python
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
+  push:
   pull_request:
     types:
       - opened
